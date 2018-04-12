@@ -1,0 +1,136 @@
+/* This css will make use media queries to the dimensions of :
+
+smart phone
+@media (min-width: 321px) and (max-width: 480px)*/
+
+
+
+@media only screen and (max-width:500px){
+	
+body{
+overflow-x: hidden;
+}
+
+/*#logo{
+display:none;
+}*/
+
+nav{
+	display:none;
+}
+
+img{
+ width: 100%;
+ height: auto;
+}
+
+.images{
+	float:none;
+}
+
+#primary-content{
+	height:500px;
+}
+
+input{
+	width:100%
+}
+textarea{
+	width:100%
+}
+h2{
+	display:none;
+}
+
+h5{
+	font-size: 14px;
+}
+
+.wrapper { 
+	width: 480px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:270px;
+	height:20px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.7em;
+	color:#3a3a3a;
+}
+textarea {
+	height:60px;
+}
+
+
+li{
+list-style-type: none;
+font-size: 12px;
+}
+#primary-content {
+	/*height: 1800px;*/
+	background: #e8eced ;
+    /*overflow: visible;*/
+}
+
+#socialLinksIcons{
+height: 50px;	
+float:left;
+}
+
+
+.footer-links {
+	/*background-color: yellow;*/
+	width:100px;
+	float:left;
+	margin-left:0px;
+}
+.wrapper{
+	width: 480px;
+}
+
+
+footer {
+    height:220px;
+	padding: 8px 15px 40px;
+
+}
+nav  	{
+  /*float: right*/
+    position: absolute;
+	top:25px;
+    left: 200px;
+   /* border: 3px solid silver;*/
+}
+#HamIcon{
+	
+	display:block;
+    float:right;
+    margin-right:85px;
+	
+}
+
+nav ul a {
+  /*  width: 90px;*/
+    padding: 2px 4px;
+	display:flex;
+	font-size: 12px;
+	/*float:left;*/
+}
+a:hover {
+	color: #02b8dd;
+	font-size: 90%;
+}
+#content{
+	/*center the content div*/
+	margin: 0px;
+    width: 60%;
+    padding: 10px; 
+}
+#travelAdsVideo{
+	display:none;
+}
+}

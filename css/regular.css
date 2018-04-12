@@ -1,0 +1,249 @@
+
+body {
+	background:linear-gradient(to right, silver, #ffe6ff);
+	font: normal 15px, Arial, Helvetica, Geneva, sans-serif;
+	margin: 0px;
+	height: 800px;
+}
+
+h2 {
+    color: white;
+    text-shadow:  1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size: 36px;
+	text-align: center-left;
+	margin-bottom:10px;
+	}
+
+h4 {
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow:  1px 1px 2px black, 0 0 15px blue, 0 0 5px darkblue;
+	float:left;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: bold;
+	float:left;
+	margin-top: 2px;
+}
+h6{
+	font-size:16px;
+	font-weight:bold;
+	
+}
+h7{
+	font-size:20px;
+	font-weight:bold;
+	/*text-shadow:  1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;*/
+	text-shadow: 2px 2px 8px darkblue;
+}
+
+
+
+h5 {
+    color: black;
+    /*text-shadow:  1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;*/
+	font-size: 20px;
+	text-align: center-left;
+	
+	}
+
+
+a {
+	text-decoration: none;
+	color: darkblue;
+	font-weight: bold;
+	
+	
+	
+}
+
+a:hover {
+	color: #02b8dd;
+	font-size: 110%;
+}
+
+/*as the design has a width of 960px, we will also need to insert a wrapper into each section.*/
+.wrapper { 
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 960px;
+	
+}
+
+header{
+   height: 50px;
+}
+
+#primary-content {
+	height: 480px;
+	background: #e8eced ;
+}
+
+footer {
+    height:180px;
+	padding: 40px 0;
+	background-color: #ffecd8;
+}
+
+nav  	{
+   float: right
+   
+}
+
+nav ul a {
+    width: 100px;
+    padding: 8px 16px;
+	margin-left:20px;
+}
+
+li{
+list-style-type: none;
+font-size: 15px;
+}
+
+img:hover{
+ opacity: 0.5;
+  filter: alpha(opacity=50); 
+}
+
+
+.footer-links {
+	/*background-color: yellow;*/
+	width:280px;
+	float:left;
+	margin-left:10px;
+}
+
+
+ul a:hover {
+    background-color: #e6e6e6;
+}
+
+#secondary-header{
+     /*background-image: url("images\BackGroundImage4.jpg");*/
+	 /*background-repeat: no-repeat;*/
+	height:70px;
+	/*background: #ecd8ff;*/
+	background: linear-gradient(to bottom right,silver, #e6e6e6);
+   
+}
+.images{
+/*background-color:yellow;*/
+float: left;
+margin-left:5px;
+margin-top:28px;
+
+}
+
+#socialLinksIcons{
+height: 50px;	
+float:right;
+}
+
+#logo{
+float: left;
+margin-bottom:25px;
+}
+
+img{
+width:200px;
+max-width: 100%;
+
+}
+/*#primary-content{
+	height:600px;
+}*/
+
+#panel{
+	 /*background-color:#f2f2f2;*/
+	 /*background-color:silver;*/
+	height:10px;
+}
+label {
+    /*display:block;*/
+      /* margin-top:2px;*/
+      font-weight:bold;
+  
+}
+
+/* Centre the form within the page */
+form {
+    width:459px;
+}
+/* Style the text boxes */
+input, textarea {
+	width:420px;
+	height:20px;
+	background:#efefef;
+	border:3px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+textarea {
+	height:120px;
+	
+}
+#HamIcon{
+	display:none;
+	/*position:absolute;*/
+}
+
+#showMenu {
+	/*padding: 50px;*/
+	display: none;
+	/*text-align: center;*/
+	/*background-color: #e5eecc;*/
+	width:150px;
+	height:40px;
+	float:right;
+}
+
+#content{
+	/*center the content div*/
+	margin: auto;
+    width: 60%;
+    padding: 10px; 
+}
+
+#destinations{
+	width:130px;
+	height:30px;
+	margin-top:1px;
+	border-radius: 25px;
+	text-align:center;
+	animation-name:  animation1;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+#travelAdsVideo{
+	margin-top: 150px;
+	float:left;
+}
+#map{
+	float:right;
+	margin-top:80px;
+	margin-left:40px;
+}
+
+			
+@keyframes animation1 {
+	0% {background-color: silver;}
+	10% {background-color:  #ecf2f9;}
+	20% {background-color: #e7e7e7;}
+	30% {background-color:  #ecf2f9;}
+	40% {background-color: silver;} 
+	50% {background-color: #ecf2f9;}
+	60% {background-color: silver;}
+	70% {background-color:  #ecf2f9;}
+	80% {background-color: #e7e7e7;}
+	90% {background-color:  #ecf2f9;}
+	100% {background-color: silver;}
+}
+
+
+
+
